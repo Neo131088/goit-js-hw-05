@@ -1,7 +1,7 @@
 const getUserNames = users => users.map(user => user.name);
 
 console.log(
-  getUserNames([
+  getUserNames([ 
     {
       name: 'Moore Hensley',
       email: 'moorehensley@indexia.com',
